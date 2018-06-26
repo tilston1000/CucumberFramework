@@ -29,7 +29,7 @@ public class Test_Steps {
 	
 	@Given("^a new user on the automation practise$")
 	public void a_new_user_is_on_the_automation_practise_site() throws Throwable {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\tilst\\Projects\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "<file location>");
 		driver = new ChromeDriver();	
 		
 		pageObjectManager = new PageObjectManager(driver);
